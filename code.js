@@ -78,17 +78,5 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
     m = "벌금 등록이 완료되었습니다~한번 확인해보세요~~";
              replier.reply(m);
    }
-
-
-
-   else if (msg == "/희선") {
-      replier.reply("바보");
-   }
-   else if (msg == "/민규") {
-      replier.reply("♥")
-   }
-   else if (msg == "/아이") {
-      replier.reply("러브 유😘")
-   }
    
 }
